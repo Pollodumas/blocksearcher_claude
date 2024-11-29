@@ -1,0 +1,9 @@
+{
+  "name": "blockchain-research-crew",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "streamlit run src/app.py",
+    "dev": "streamlit run src/app.py"
+  }
+}

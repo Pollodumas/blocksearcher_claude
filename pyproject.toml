@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=65.5.1", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "blockchain-research-crew"
+version = "1.0.0"
+description = "A Streamlit application that uses AI agents to analyze blockchain-related content"
+requires-python = ">=3.9"
+dependencies = [
+    "streamlit==1.29.0",
+    "langchain-community==0.0.10",
+    "langchain-anthropic==0.1.1",
+    "anthropic>=0.18.1",
+    "duckduckgo-search==4.1.1",
+    "crewai==0.11.0",
+    "python-dotenv==1.0.0",
+    "setuptools>=65.5.1"
+]
